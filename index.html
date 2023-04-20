@@ -9,15 +9,43 @@
   <body>
     <div class="min-h-screen py-40" style="background-image: linear-gradient(115deg, #9F7AEA, #FEE2FE)">
       <div class="container mx-auto">
-        <div class="w-8/12 bg-white rounded-xl mx-auto shadow-lg overflow-hidden">
-          <div>
-            <h1>Welcome</h1>
-            <div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus nostrum beatae suscipit ut, illo at reprehenderit reiciendis natus exercitationem consequatur sapiente voluptatibus eaque nobis, minus omnis ullam! Dolore, quo molestias.</p>
-            </div>
+        <div class="flex flex-col lg:flex-row w-10/12 bg-white rounded-xl mx-auto shadow-lg overflow-hidden">
+          <div class="w-full lg:w-1/2 flex flex-col items-top justify-center p-12 bg-no-repeat bg-cover bg-center" style="background-image: url(images/syaz1_0.JPG);">
+            <h1 class="text-white text-3xl mt-3 justi">Welcome</h1>
+            
           </div>
-          <div>
-            <h2>Register</h2>
+          <div class="w-full lg:w-1/2 py-16 px-12">
+            <div>
+                <p class="text-black font-thin">
+                  This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi!<br><br>
+                  Sign up now to get started.<br><br>
+                  <a href="#" class="text-purple-500 font-semibold">You <em>know</em> you want to.</a>
+              </p>
+              </div>
+            <p class="mb-4">Create your account. it's free and only takes a minute!</p>
+            <form action="#">
+                <div class="grid grid-cols-2 gap-5">
+                    <input type="text" placeholder="First Name" class="border border-gray-400 py-1 px-2">
+                    <input type="text" placeholder="Last Name" class="border border-gray-400 py-1 px-2">
+                </div>
+                <div class="mt-5">
+                    <input type="email" placeholder="Email" class="border border-gray-400 py-1 px-2 w-full">
+                </div>
+                <div class="mt-5">
+                    <input type="password" placeholder="Password" class="border border-gray-400 py-1 px-2 w-full">
+                </div>
+                <div class="mt-5">
+                    <input type="password" placeholder="Confirm Password" class="border border-gray-400 py-1 px-2 w-full">
+                </div>
+                <div class="mt-5"><input type="checkbox" name="" id="" class="border border-gray-400">
+                <span>
+                    I accept the <a href="#" class="text-purple-500 font-semibold">Terms of use</a> & <a href="" class="text-purple-500 font-semibold">Privacy Policy</a>
+                </span>
+            </div>
+            <div class="mt-5">
+                <button class="w-full bg-purple-300 py-3 text-cent text-white hover:bg-purple-500">Create Account</button>
+            </div>
+            </form>
           </div>
 
         </div>
